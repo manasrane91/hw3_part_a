@@ -1,1 +1,9 @@
-<h1>Welcome to the page!</h1>
+<h1>My Places</h1>
+ 
+ <ul>
+  <% for place in @places %>
+    <li>
+      <%= place["name"] %>
+    </li>
+  <% end %>
+</ul>
