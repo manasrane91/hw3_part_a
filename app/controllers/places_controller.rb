@@ -12,12 +12,10 @@ class PlacesController < ApplicationController
   end
 
   def create
-    @place.Place.new
+    @place=Place.new
 
     @place["name"] = params["name"]
-    @place["title"] = params["title"]
-    @place["description"] = params["description"]
-    @place["date"] = params["date"]
+    
 
 
     @place.save
