@@ -4,4 +4,12 @@ class PlacesController < ApplicationController
     #render :template => "places/index"
   end
 
+  def show
+  end
+
+  def new
+  end
+
   
+
+
