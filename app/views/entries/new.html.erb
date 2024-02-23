@@ -10,15 +10,15 @@
   </p>
 
   <p>
-    <label for="posted_on">Email</label>
+    <label for="posted_on">Posted_on</label>
     <input type="date" name="posted_on">
 
   </p>
 
   <!-- transfer state from the previous action to the next -->
   <p>
-    <label for="place_id">Place</label>
-    <input type="text" name="place_id" value="<%= @place["id"] %>">
+    
+    <input type="hidden" name="place_id" value="<%= @place["id"] %>">
   </p>
   <button>Submit</button>
 </form>
